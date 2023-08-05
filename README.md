@@ -1,2 +1,2 @@
 # VisualBooks
-Repo for August 2023 version of minimum viable product for VisualBooks, a book-to-movie project; for nonprofit startup Equity A1.
+A minimum viable product for VisualBooks, a project turning written books into animated movies through generative AI; for nonprofit startup Equity A1.
