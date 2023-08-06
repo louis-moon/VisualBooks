@@ -27,6 +27,6 @@ Ensure you're running the code in a Google Colab environment for optimal compati
 ## Usage
 Modify the prompts variable in the VQGAN + CLIP cell to change the textual description for the AI to visualize. For instance:
 
-prompts = "(Black-and-white stick figure image) A young boy playing with a large, happy tree. He wears a crown of leaves and acts like the king of the forest."
+`prompts = "(Black-and-white stick figure image) A young boy playing with a large, happy tree. He wears a crown of leaves and acts like the king of the forest."`
 ## Objective
 VisualBooks seeks to transform the way we experience stories. By combining these AI-generated visuals with audiobooks, our goal is to produce an "animated movie", offering users a richer and more engaging storytelling medium.
