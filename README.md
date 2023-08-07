@@ -5,11 +5,11 @@ VisualBooks aims to bring the textual world of books to life by turning them int
 Originally designed for the nonprofit startup Equity A1, this repository serves as the minimum viable product (MVP) for VisualBooks.
 
 ## Features
-GPU Check: Before running any operations, the code ensures the available GPU memory is sufficient, alerting the user if there's a deficiency.
-AI Backend: Utilizes the capabilities of the VQGAN and CLIP models to generate imagery based on textual prompts.
-Customizable Prompts: Tailor your visual outputs by inputting unique textual descriptions.
-Quality Control: Control the resolution of your images by selecting between various quality options (draft, normal, better, best).
-Animated Sequences: Convert a series of images into a GIF animation, providing a visual narrative that can be synchronized with audiobook playback.
+- GPU Check: Before running any operations, the code ensures the available GPU memory is sufficient, alerting the user if there's a deficiency.
+- AI Backend: Utilizes the capabilities of the VQGAN and CLIP models to generate imagery based on textual prompts.
+- Customizable Prompts: Tailor your visual outputs by inputting unique textual descriptions.
+- Quality Control: Control the resolution of your images by selecting between various quality options (draft, normal, better, best).
+- Animated Sequences: Convert a series of images into a GIF animation, providing a visual narrative that can be synchronized with audiobook playback.
 ## Getting Started
 ### Prerequisites
 It's recommended to execute this code in a Google Colab environment for compatibility and ease of GPU access.
