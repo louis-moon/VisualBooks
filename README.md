@@ -18,10 +18,10 @@ It's recommended to execute this code in a Google Colab environment for compatib
 1. Environment Initialization (VisualBooks File):
 
 - Start by running the Setup cell. This will:
-- - Validate your available GPU memory.
-- - Install necessary dependencies including PyTorch, torchvision, clipit, and more.
-- - Clone essential repositories: CLIP, taming-transformers, and clipit.
-- - Set up the environment for diffvg.
+  - Validate your available GPU memory.
+  - Install necessary dependencies including PyTorch, torchvision, clipit, and more.
+  - Clone essential repositories: CLIP, taming-transformers, and clipit.
+  - Set up the environment for diffvg.
 2. Generate Visual Imagery (animatedmovie File, Cell 2):
 
 - Modify the prompts variable to customize the textual description for visualization.  
