@@ -15,22 +15,21 @@ Originally designed for the nonprofit startup Equity A1, this repository serves 
 It's recommended to execute this code in a Google Colab environment for compatibility and ease of GPU access.
 
 ## Setup
-1. Environment Initialization (VisualBooks File):
+1. Environment Initialization (visualbooks):
 
 - Start by running the Setup cell. This will:
   - Validate your available GPU memory.
   - Install necessary dependencies including PyTorch, torchvision, clipit, and more.
   - Clone essential repositories: CLIP, taming-transformers, and clipit.
   - Set up the environment for diffvg.
-2. Generate Visual Imagery (animatedmovie File, Cell 2):
+2. Generate Visual Imagery (visualbooks):
 
 - Modify the prompts variable to customize the textual description for visualization.  
-
-Example:
+  Example:
 `prompts = "(Black-and-white stick figure image) A young boy playing with a large, happy tree. He wears a crown of leaves and acts like the king of the forest."`
 - Define the quality and aspect ratio settings for your image.
 - Execute the cell to get your visual output.
-3. Convert Imagery to GIF (animatedmovie File, Cell 1):
+3. Convert Imagery to GIF (animatedmovie):
 
 - Store the images you wish to convert in a directory (e.g., 'giving_tree').
 - Run the cell to process these images and obtain a GIF animation, which can be displayed directly within the notebook.
