@@ -5,28 +5,34 @@ VisualBooks aims to bring the textual world of books to life by turning them int
 Originally designed for the nonprofit startup Equity A1, this repository serves as the minimum viable product (MVP) for VisualBooks.
 
 ## Features
-- GPU Check: Before running any heavy operations, the code ensures the available GPU memory is sufficient. Alerts the user if there's a deficiency.
-- AI Backend: Leverages the capabilities of the VQGAN and CLIP models to generate imagery based on textual prompts.
-- Customizable Prompts: Users can input custom textual descriptions to produce corresponding visuals.
-- Quality Control: Offers various quality options (draft, normal, better, best) for image generation, allowing users to balance between speed and fidelity.
+GPU Check: Before running any operations, the code ensures the available GPU memory is sufficient, alerting the user if there's a deficiency.
+AI Backend: Utilizes the capabilities of the VQGAN and CLIP models to generate imagery based on textual prompts.
+Customizable Prompts: Tailor your visual outputs by inputting unique textual descriptions.
+Quality Control: Control the resolution of your images by selecting between various quality options (draft, normal, better, best).
+Animated Sequences: Convert a series of images into a GIF animation, providing a visual narrative that can be synchronized with audiobook playback.
 ## Getting Started
 ### Prerequisites
-Ensure you're running the code in a Google Colab environment for optimal compatibility.
+It's recommended to execute this code in a Google Colab environment for compatibility and ease of GPU access.
 
-### Setup
-1. Run the Setup cell. This will:
+## Setup
+1. Environment Initialization (VisualBooks File):
 
-- Check your available GPU memory.
-- Install necessary dependencies including PyTorch, torchvision, clipit, and many more.
-- Clone relevant repositories: CLIP, taming-transformers, and clipit.
-- Set up the environment for diffvg.
-2. Run the VQGAN + CLIP cell:
+- Start by running the Setup cell. This will:
+- - Validate your available GPU memory.
+- - Install necessary dependencies including PyTorch, torchvision, clipit, and more.
+- - Clone essential repositories: CLIP, taming-transformers, and clipit.
+- - Set up the environment for diffvg.
+2. Generate Visual Imagery (animatedmovie File, Cell 2):
 
-- This is where the magic happens. Here, you can customize the textual prompt, choose the image quality, and decide the aspect ratio of the output image.
-- Running this cell will generate the image based on your settings.
-## Usage
-Modify the prompts variable in the VQGAN + CLIP cell to change the textual description for the AI to visualize. For instance:
+- Modify the prompts variable to customize the textual description for visualization.  
 
+Example:
 `prompts = "(Black-and-white stick figure image) A young boy playing with a large, happy tree. He wears a crown of leaves and acts like the king of the forest."`
+- Define the quality and aspect ratio settings for your image.
+- Execute the cell to get your visual output.
+3. Convert Imagery to GIF (animatedmovie File, Cell 1):
+
+- Store the images you wish to convert in a directory (e.g., 'giving_tree').
+- Run the cell to process these images and obtain a GIF animation, which can be displayed directly within the notebook.
 ## Objective
-VisualBooks seeks to transform the way we experience stories. By combining these AI-generated visuals with audiobooks, our goal is to produce an "animated movie", offering users a richer and more engaging storytelling medium.
+VisualBooks redefines storytelling. By pairing AI-generated visuals with audiobooks, our aspiration is to craft an "animated movie" experience. This union offers audiences a novel, immersive storytelling medium, combining the auditory charm of narration with dynamic visual cues.
